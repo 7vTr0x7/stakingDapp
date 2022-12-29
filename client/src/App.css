@@ -1,7 +1,7 @@
 .App {
   background-color: black;
   text-align: center;
-  min-height: 100vh; /* required for full page background */
+  min-height: 110vh; /* required for full page background */
 }
 
 #root {
@@ -111,6 +111,7 @@
   margin: 0 auto;
   top: 50%;
   border-radius: 24px;
+  margin-bottom: 4rem;
   padding: 6px;
   padding: 8px;
   margin-top: 50px; /* space between sections */
