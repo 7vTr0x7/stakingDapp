@@ -1,6 +1,5 @@
 .App {
   background-color: black;
-  border: 2px solid white;
   text-align: center;
   min-height: 100vh; /* required for full page background */
 }
@@ -23,42 +22,27 @@
   padding: 5px;
   color: white;
   font-size: 24px;
-  border-radius: 1rem;
-
-}
-.navBtn1 {
-  float: left;
-
-  display: inline-block;
-  padding: 5px;
-  color: white;
-  margin-right: 60rem;
-  font-size: 24px;
-  border-radius: 1rem;
-
 }
 .connectBtn {
   float: right;
   margin-right: 24px;
-  background-color: transparent;
-  border-radius: 1rem;
+  background-color: white;
+  border-radius: 2rem;
   padding: 5px 15px;
-  color: #f1f1f3;
+  color: black;
   font-size: 24px;
   cursor: pointer;
-  border: 1px solid white;
-
-  
 }
 .connectBtn:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
-.navbar {
+.navBar {
   padding-top: 18px;
   overflow: hidden;
   padding-bottom: 10px;
-  border-bottom: 1px solid rgb(237, 238, 242);
+  border-bottom: 1px solid rgba(17, 104, 241, 0.08);
 }
 
 /*////////////////////////////////////////////////////////////////////////////*/
@@ -70,14 +54,11 @@
   margin: 0 auto;
   top: 50%;
   border-radius: 24px;
-  border: 1px solid white;
   padding: 8px;
+  border: 1px solid white;
 }
 .subContainer {
   margin-bottom: 20px;
-}
-.month{
-  color: white;
 }
 .marketOption {
   display: flex;
@@ -85,7 +66,7 @@
 }
 .optionData {
   margin-left: 10px;
-  color: ;
+  color: #fff;
   font-weight: 700;
 }
 .optionPercent {
@@ -95,29 +76,30 @@
   color: white;
 }
 .logoImg {
-
+  background-color: black;
+  border-radius: 100px;
   margin-bottom: 14px;
   margin-right: 14px;
-  width: 22px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
+}
+.logoImg:hover {
+  background-color: white ;
+  color: black;
+  border-radius: 2rem;
 }
 .marketHeader {
   color: #fff;
   font-size: 32px;
   font-weight: 800;
-  margin-left: 10px;
 }
 .hoverButton:hover {
   background: white;
-  color: black;
   cursor: pointer;
 }
 .hoverButton:active {
   /* box-shadow: 0 0 0 white; */
   box-shadow: inset;
-}
-.optionData{
-  color: white;
 }
 
 /*////////////////////////////////////////////////////////////////////////////*/
@@ -131,7 +113,6 @@
   border-radius: 24px;
   padding: 6px;
   padding: 8px;
-  margin-bottom: 2rem;
   margin-top: 50px; /* space between sections */
   color: #fff;
   font-weight: 500;
@@ -154,11 +135,16 @@
 /*////////////////////////////////////////////////////////////////////////////*/
 /* Glyphs */
 .glyphContainer {
-  background-color: #fff;
+  background-color: black;
+  color: white;
   display: inline-block;
   width: 60px;
   height: 60px;
-  border-radius: 12px;
+  border-radius: 2rem;
+}
+.glyphContainer:hover {
+  background-color: white;
+  color: black;
 }
 .glyph {
   font-size: 34px;
@@ -171,23 +157,21 @@
   position: fixed;
   left: 0;
   top: -400px;
+
   right: 0px;
   bottom: 0;
-  margin-bottom: 2rem;
+  margin-top: 15rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgb(86, 90, 105);
-}
-.modal-body{
-  margin-bottom: 2rem;
+  color: white;
 }
 .modal-content {
   background-color: black;
   width: 300px !important;
   padding: 0px 15px;
-  background-color: rgba(0,0,0,0.5) !important;
-  border: 1px solid  white !important;
+  background-color: black !important;
+  border: 1px solid rgb(206, 208, 217) !important;
   border-radius: 12px !important;
 }
 .fieldContainer {
@@ -196,18 +180,12 @@
 .inputField {
   background-color: transparent;
   padding-left: 10px;
+  color: white;
   border-radius: 36px;
   border: 1px solid white;
   height: 2rem;
   margin: 10px 0;
-  color: white;
   width: 100%;
-}
-.titleHeader{
-  color: white;
-}
-.eth{
-  color: white;
 }
 .inputFieldUnitsContainer {
   padding-left: 0px !important;
@@ -217,11 +195,12 @@
   width: 100%;
   height: 45px;
   line-height: 45px;
+  margin-bottom: 5px;
   font-size: 24px;
-  color: white;
-  border-radius: 20px;
+  color: #fff;
   border: 1px solid white;
-  background-color:transparent;
+  border-radius: 20px;
+  background-color: transparent;
   cursor: pointer
 }
 .orangeMiniButton {
@@ -235,10 +214,10 @@
   cursor: pointer
 }
 .orangeMiniButton:hover {
-  color: white;
+  color: #fff;
   background-color: black;
   border: 1px solid white;
 }
 .stakingTerms {
-  color: black;
+  color: white;
 }

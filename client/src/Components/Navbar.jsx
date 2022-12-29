@@ -4,8 +4,8 @@ const Navbar = props => {
   return (
     <>
     <div className='navbar'>
-        <div className='navBtn'>Markets</div>
-        <div className='navBtn1'>Assets</div>
+        <div className='navBtn'>Market</div>
+      
         { props.isConnected() ? (
             <div className='connectBtn'>
                 Connected

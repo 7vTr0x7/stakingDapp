@@ -1,5 +1,5 @@
-import ethLogo from "./ethlogo.png";
+import logo from "./matic.png";
 
 export {
-     ethLogo
+     logo
 }

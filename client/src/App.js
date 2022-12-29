@@ -5,11 +5,11 @@ import stakingABI from "./Utils/Staking.json";
 
 import { Navbar , StakeModal } from "./Components/index";
 
-import { ethLogo } from "./Components/logo/index"
+import { logo } from "./Components/logo/index"
 
 import { Bank , PiggyBank , Coin } from "react-bootstrap-icons"
 
-const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+const CONTRACT_ADDRESS = "0x8F1cD2334c3Dec40EA8e1418640562226d4B9D62";
 
 function App() {
   //general
@@ -126,9 +126,9 @@ function App() {
         <div className="marketContainer">
           <div className="subContainer">
             <span>
-              <img className="logoImg" src={ ethLogo } alt="logo" />
+              <img className="logoImg" src={ logo } alt="logo" />
             </span>
-            <span className="marketHeader">Ethereum Market</span>
+            <span className="marketHeader">MATIC Market</span>
           </div>
 
           <div className="row">
@@ -195,7 +195,7 @@ function App() {
             <div className="row">
               <div className="col-md-2">
                 <span>
-                  <img className="logoImg" src={ethLogo} alt="logo" />
+                  <img className="logoImg" src={logo} alt="logo" />
                 </span>
               </div>
               <div className="col-md-2">
